@@ -1,0 +1,29 @@
+.test-block{
+    height: 0;
+    width: 0px;
+    background-color: burlywood;
+    border: 1px solid black;
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    transform: rotate(360deg);
+    transition: all 1s ease 0s;
+}
+.test-block-action{
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(-360deg);
+    width: 150px;
+    height: 150px;
+left: 0;
+transition: all 1s ease 0s;
+}
+.cont {
+    margin-top:20px;
+    display: flex;
+}
+button{
+    position: relative;
+    top: 20px;
+
+}
